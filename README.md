@@ -18,6 +18,10 @@ LyricLens is an AI-powered song lyrics analysis tool. It help users uncover the 
 - **Backend**: PHP (for API), MySQL (for history storage).
 - **AI Integration**: Openrouter or Ollama 
 
+## Demo
+
+[https://lyriclens.jentsch.io/](https://lyriclens.jentsch.io/)
+
 ## Getting Started 
 
 ### Prerequisites
@@ -63,7 +67,7 @@ npm run build
 
 5. Deploy the contents of the `dist/` folder to your web server.
 
-## Development 🧪
+## Development
 
 To run the development server locally:
 
