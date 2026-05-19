@@ -34,11 +34,14 @@ LyricLens is an AI-powered song lyrics analysis tool. It help users uncover the 
 ### Frontend Setup
 1. Clone the repository.
 2. Install dependencies:
-   ```bash
+
+```bash
 npm install
-   ```
+```
+
 3. Update the config.ts file in the /src directory:
-   ```typescript
+
+```typescript
 const config = {
   api: {
     generateUrl: "/api/generate.php",
@@ -50,16 +53,20 @@ const config = {
 } as const;
 
 export default config;
-   ```
+```
+
 4. Build the project:
-   ```bash
-   npm run build
-   ```
+
+```bash
+npm run build
+```
+
 5. Deploy the contents of the `dist/` folder to your web server.
 
 ## Development 🧪
 
 To run the development server locally:
+
 ```bash
 npm run dev
 ```
