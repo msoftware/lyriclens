@@ -1,0 +1,26 @@
+{
+      "intro": "Uncover the hidden depths of your favorite songs. Paste lyrics or upload a text file for a comprehensive AI analysis of themes, emotions, and literary devices.",
+      "lyrics": "The Lyrics",
+      "analysis": "The Analysis",
+      "emptyState": "Your analysis will appear here. Awaiting the lyrics...",
+      "recentAnalyses": "Recent Analyses",
+      "analyzeLyrics": "Analyze Lyrics",
+      "analyzing": "Analyzing...",
+      "deconstructingVerses": "Deconstructing the verses...",
+      "viewAnalysis": "View Analysis",
+      "pasteLyrics": "Paste song lyrics here...",
+      "primaryTheme": "Primary Theme",
+      "dominantEmotion": "Dominant Emotion",
+      "complexityLevel": "Complexity Level",
+      "narrativeStyle": "Narrative Style",
+      "metrics": {
+        "emotion": "Emotion",
+        "complexity": "Complexity",
+        "storytelling": "Storytelling",
+        "imagery": "Imagery",
+        "repetition": "Repetition",
+        "intensity": "Intensity",
+        "originality": "Originality",
+        "depth": "Depth"
+      }
+    }

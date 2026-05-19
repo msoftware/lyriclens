@@ -1,0 +1,26 @@
+{
+      "intro": "お気に入りの楽曲に隠された深い意味を解き明かしましょう。歌詞を貼り付けるかテキストファイルをアップロードすると、テーマ、感情、文学的表現についてAIによる包括的な分析を受けられます。",
+      "lyrics": "歌詞",
+      "analysis": "分析",
+      "emptyState": "ここに分析が表示されます。歌詞を待っています...",
+      "recentAnalyses": "最近の分析",
+      "analyzeLyrics": "歌詞を分析",
+      "analyzing": "分析中...",
+      "deconstructingVerses": "歌詞を解析しています...",
+      "viewAnalysis": "分析を見る",
+      "pasteLyrics": "ここに歌詞を貼り付けてください...",
+      "primaryTheme": "主なテーマ",
+      "dominantEmotion": "支配的な感情",
+      "complexityLevel": "複雑さのレベル",
+      "narrativeStyle": "語りのスタイル",
+      "metrics": {
+        "emotion": "感情",
+        "complexity": "複雑さ",
+        "storytelling": "物語性",
+        "imagery": "イメージ表現",
+        "repetition": "反復",
+        "intensity": "強度",
+        "originality": "独創性",
+        "depth": "深み"
+      }
+    }

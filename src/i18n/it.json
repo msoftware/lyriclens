@@ -1,0 +1,26 @@
+{
+      "intro": "Scopri le profondità nascoste delle tue canzoni preferite. Incolla i testi delle canzoni o carica un file di testo per ottenere un’analisi completa tramite IA di temi, emozioni e figure letterarie.",
+      "lyrics": "Il testo",
+      "analysis": "L’analisi",
+      "emptyState": "La tua analisi apparirà qui. In attesa del testo...",
+      "recentAnalyses": "Analisi recenti",
+      "analyzeLyrics": "Analizza testo",
+      "analyzing": "Analisi in corso...",
+      "deconstructingVerses": "Analisi dei versi in corso...",
+      "viewAnalysis": "Visualizza analisi",
+      "pasteLyrics": "Incolla qui il testo della canzone...",
+      "primaryTheme": "Tema principale",
+      "dominantEmotion": "Emozione dominante",
+      "complexityLevel": "Livello di complessità",
+      "narrativeStyle": "Stile narrativo",
+      "metrics": {
+        "emotion": "Emozione",
+        "complexity": "Complessità",
+        "storytelling": "Narrazione",
+        "imagery": "Immaginazione",
+        "repetition": "Ripetizione",
+        "intensity": "Intensità",
+        "originality": "Originalità",
+        "depth": "Profondità"
+      }
+    }

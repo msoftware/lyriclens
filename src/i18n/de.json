@@ -1,0 +1,26 @@
+{
+      "intro": "Entdecke die verborgene Tiefe deiner Lieblingssongs. Füge Liedtexte ein oder lade eine Textdatei hoch, um eine umfassende KI-Analyse von Themen, Emotionen und literarischen Stilmitteln zu erhalten.",
+      "lyrics": "Der Liedtext",
+      "analysis": "Die Analyse",
+      "emptyState": "Deine Analyse wird hier erscheinen. Warte auf den Liedtext...",
+      "recentAnalyses": "Letzte Analysen",
+      "analyzeLyrics": "Liedtext analysieren",
+      "analyzing": "Analysiere...",
+      "deconstructingVerses": "Verse werden analysiert...",
+      "viewAnalysis": "Analyse anzeigen",
+      "pasteLyrics": "Songtext hier einfügen...",
+      "primaryTheme": "Hauptthema",
+      "dominantEmotion": "Vorherrschende Emotion",
+      "complexityLevel": "Komplexitätsgrad",
+      "narrativeStyle": "Erzählstil",
+      "metrics": {
+        "emotion": "Emotion",
+        "complexity": "Komplexität",
+        "storytelling": "Storytelling",
+        "imagery": "Bildsprache",
+        "repetition": "Wiederholung",
+        "intensity": "Intensität",
+        "originality": "Originalität",
+        "depth": "Tiefe"
+      }
+    }

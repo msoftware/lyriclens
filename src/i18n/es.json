@@ -1,0 +1,26 @@
+{
+      "intro": "Descubre la profundidad oculta de tus canciones favoritas. Pega letras de canciones o sube un archivo de texto para obtener un análisis completo con IA sobre temas, emociones y recursos literarios.",
+      "lyrics": "La letra",
+      "analysis": "El análisis",
+      "emptyState": "Tu análisis aparecerá aquí. Esperando la letra...",
+      "recentAnalyses": "Análisis recientes",
+      "analyzeLyrics": "Analizar letra",
+      "analyzing": "Analizando...",
+      "deconstructingVerses": "Descomponiendo los versos...",
+      "viewAnalysis": "Ver análisis",
+      "pasteLyrics": "Pega la letra aquí...",
+      "primaryTheme": "Tema principal",
+      "dominantEmotion": "Emoción dominante",
+      "complexityLevel": "Nivel de complejidad",
+      "narrativeStyle": "Estilo narrativo",
+      "metrics": {
+        "emotion": "Emoción",
+        "complexity": "Complejidad",
+        "storytelling": "Narrativa",
+        "imagery": "Imágenes",
+        "repetition": "Repetición",
+        "intensity": "Intensidad",
+        "originality": "Originalidad",
+        "depth": "Profundidad"
+      }
+}

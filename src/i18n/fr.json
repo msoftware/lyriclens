@@ -1,0 +1,26 @@
+{
+      "intro": "Découvrez les profondeurs cachées de vos chansons préférées. Collez des paroles ou téléchargez un fichier texte pour obtenir une analyse complète par IA des thèmes, des émotions et des procédés littéraires.",
+      "lyrics": "Les paroles",
+      "analysis": "L\"analyse",
+      "emptyState": "Votre analyse apparaîtra ici. En attente des paroles...",
+      "recentAnalyses": "Analyses récentes",
+      "analyzeLyrics": "Analyser les paroles",
+      "analyzing": "Analyse en cours...",
+      "deconstructingVerses": "Déconstruction des couplets...",
+      "viewAnalysis": "Voir l\"analyse",
+      "pasteLyrics": "Collez les paroles ici...",
+      "primaryTheme": "Thème principal",
+      "dominantEmotion": "Émotion dominante",
+      "complexityLevel": "Niveau de complexité",
+      "narrativeStyle": "Style narratif",
+      "metrics": {
+        "emotion": "Émotion",
+        "complexity": "Complexité",
+        "storytelling": "Narration",
+        "imagery": "Imagerie",
+        "repetition": "Répétition",
+        "intensity": "Intensité",
+        "originality": "Originalité",
+        "depth": "Profondeur"
+      }
+}
