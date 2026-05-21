@@ -12,4 +12,7 @@ $charset = 'utf8mb4';
 // Openrouter config
 $apiKey = "sk-XXXXX";       // Change this to your Openrouter key
 $apiUrl = "https://openrouter.ai/api/v1/chat/completions";
+
+// Cache TTL in seconds (0 = keep forever)
+$cacheTTL = 0;
 ?>

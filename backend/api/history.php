@@ -60,6 +60,14 @@ if ($method === 'GET') {
 
     if (!empty($data->id) && !empty($data->lyrics) && !empty($data->analysis) && !empty($data->language) && !empty($data->timestamp)) {
         try {
+            $stmtCheck = $pdo->prepare('SELECT id FROM history WHERE lyrics = ? AND language = ? LIMIT 1');
+            $stmtCheck->execute([$data->lyrics, $data->language]);
+
+            if ($stmtCheck->fetch()) {
+                echo json_encode(['success' => true, 'duplicate' => true]);
+                exit;
+            }
+
             // Begin a transaction to safely insert into two tables
             $pdo->beginTransaction();
 
@@ -96,7 +104,7 @@ if ($method === 'GET') {
             // Commit the transaction
             $pdo->commit();
 
-            echo json_encode(['success' => true]);
+            echo json_encode(['success' => true, 'duplicate' => false]);
         } catch (Exception $e) {
             // Rollback in case of a DB error to prevent orphaned data
             if ($pdo->inTransaction()) {
