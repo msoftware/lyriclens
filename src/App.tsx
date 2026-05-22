@@ -65,17 +65,22 @@ export default function App() {
         metrics: result.metrics || null
       };
       
-      const updatedHistory = [newItem, ...history].slice(0, 9); 
-      setHistory(updatedHistory);
-      
       fetch(config.api.historyUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(newItem),
-      }).catch(e => console.error('Failed to save history to server', e));
-      
+      })
+      .then(response => response.json()) 
+      .then((data) => { 
+        if (data.duplicate === false) {
+          const updatedHistory = [newItem, ...history].slice(0, 9); 
+          setHistory(updatedHistory);
+        } 
+      })
+      .catch(e => console.error('Failed to save history to server', e));
+
     } catch (err) {
       console.error(err);
       setError('Failed to analyze lyrics. Please try again.');
